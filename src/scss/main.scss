@@ -1,0 +1,32 @@
+body {
+    background-color: $defaultcolor;
+    header {
+        .heading-identity {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+    }
+    .border-bottom {
+        border-color: rgba(168, 179, 207, 0.4) !important;
+    }
+}
+
+h2 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 900;
+    text-decoration: none;
+}
+p {
+    color: $white;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.clickable-div {
+    cursor: pointer;
+}
