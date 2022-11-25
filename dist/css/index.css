@@ -61,8 +61,14 @@
   top: 0;
   position: absolute;
 }
+.card-group .card.card-linkin.card-emc:after {
+  border-color: transparent #E0B332 transparent transparent;
+}
 .card-group .card.card-linkin.card-htsm:after {
   border-color: transparent #e1e9f0 transparent transparent;
+}
+.card-group .card.card-linkin.card-mmm:after {
+  border-color: transparent #00AEEF transparent transparent;
 }
 .card-group i.fa {
   background: #0e1217;

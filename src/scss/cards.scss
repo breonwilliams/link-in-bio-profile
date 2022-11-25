@@ -62,9 +62,19 @@
             top: 0;
             position: absolute;
           }
+        &.card-emc {
+            &:after {
+                border-color: transparent #E0B332 transparent transparent;
+              }
+        }
         &.card-htsm {
             &:after {
                 border-color: transparent #e1e9f0 transparent transparent;
+              }
+        }
+        &.card-mmm {
+            &:after {
+                border-color: transparent #00AEEF transparent transparent;
               }
         }
     }
